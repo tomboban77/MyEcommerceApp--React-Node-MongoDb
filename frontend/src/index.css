@@ -1,0 +1,164 @@
+main {
+  min-height: 80vh;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+.rating span {
+  margin: 0.1rem;
+}
+
+.Shipping {
+  /* font-size: 1.8rem;
+  padding: 1rem 0; */
+  background-color: lightgray;
+  text-transform: uppercase;
+  color: #000;
+  font-family: "Trocchi", serif;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0;
+  text-align: center;
+}
+
+.Payment {
+  /* font-size: 1.8rem;
+  padding: 1rem 0; */
+  background-color: lightgray;
+  text-transform: uppercase;
+  color: #000;
+  font-family: "Trocchi", serif;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0;
+  text-align: center;
+}
+.login {
+  background-color: #55595c;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Trocchi", serif;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0;
+  text-align: center;
+}
+.register {
+  background-color: #55595c;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Trocchi", serif;
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+.checkNav {
+  font-weight: bolder !important;
+  background-color: burlywood;
+  color: #fff !important;
+}
+
+#tv {
+  position: relative;
+  width: 80%;
+  background: white;
+  border-radius: 0% 0% 0% 0% / 0% 0% 0% 0%;
+  /* color: white; */
+  box-shadow: 10px 10px 10px 10px #55595c;
+  transition: all 0.4s ease;
+}
+#tv:hover {
+  border-radius: 0% 0% 50% 50% / 0% 0% 5% 5%;
+  box-shadow: 5px 5px 5px 5px #55595c;
+}
+
+.formLabel {
+  font-weight: bolder !important;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 20px;
+}
+
+.buttonStyle {
+  border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% !important;
+  width: 50% !important;
+}
+
+.orderHeading {
+  background-color: lightgray;
+}
+
+.selectbox {
+  width: 200px !important;
+  height: 30px !important;
+  font-size: 1rem !important;
+  background-color: blanchedalmond;
+  font-weight: 900;
+}
+
+.commentSection {
+  background-color: blanchedalmond !important;
+  font-weight: 900 !important;
+  padding: 5px 0 5px 10px;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+}
+
+.carousel img {
+  height: 350px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 50%;
+  margin-left: 35%;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}
+
+.LatestProd {
+  margin-top: 30px;
+  color: #111;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: center;
+}
